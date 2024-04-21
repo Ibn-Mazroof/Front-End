@@ -1,0 +1,121 @@
+header nav div ul{
+    display: flex;
+    /* background-color: aqua; */
+    list-style-type: none;
+    gap: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+}
+nav .right ul img{
+    width: 10px;
+    height: 10px;
+}
+nav .right .logo0{
+    position: absolute;
+}
+nav .logo img{
+    width: 180px;
+}
+main .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    margin: 70px;
+}
+.first span{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.first span img{
+    width: 82px;
+    margin: 0px 23px;
+}
+.first .para1{
+    font-size: 24px;
+    width: 50vw;
+    text-align: center;
+    font-family: sans-serif;
+}
+.first .bold{
+    font-weight: bold;
+}
+.button{
+    background-color: #00b6d1;
+    padding: 20px 20px;
+    border: 1px solid #00b6d1;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.green{
+    background-color: rgb(92, 184, 92);
+    border: rgb(92, 184, 92);
+    font-size: 12px;
+    padding: 8px 15px;
+    min-height: 10px;
+    text-transform: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.small{
+    font-size: small;
+}
+.large{
+    font-size: xx-large;
+}
+.second{
+    max-width: 60vw;
+    margin: auto;
+    background-color: aliceblue;
+}
+.item{
+    padding: 23px;
+    background-color: rgb(233, 245, 255);
+    border-radius: 12px;
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding: 35px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.download :nth-child(2){
+    font-size: 23px;
+    font-family: sans-serif;
+    gap: 10px;
+}
+.download img{
+    width: 80px;
+    padding: 0 12px;
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+}
+@media screen and (max-width: 900px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}

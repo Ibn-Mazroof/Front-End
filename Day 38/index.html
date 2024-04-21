@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 38 - Flex box</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            background-color: bisque;
+            width: 90vmax;
+            height: 30vmax;
+            justify-content: center;
+            align-items: center;
+            /* align-content: center; */
+            /* flex-direction: column;*/
+            flex-wrap: wrap;
+            gap: 25px 15px;
+        }
+        .boxes{
+            background-color: aquamarine;
+            width: 120px;
+            height: 120px;
+            margin: 3px;
+            padding: 3px;
+            border: 2px solid red;
+        }
+        .box1{
+            align-self: flex-end;
+        }
+        .box7{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes box1">1</div>
+        <div class="boxes box2">2</div>
+        <div class="boxes box3">3</div>
+        <div class="boxes box4">4</div>
+        <div class="boxes box5">5</div>
+        <div class="boxes box6">6</div>
+        <div class="boxes box7"></div>
+        <div class="boxes box8"></div>
+        <div class="boxes box9"></div>
+        <div class="boxes box10"></div>
+        <div class="boxes box11"></div>
+        <div class="boxes box12"></div>
+        <div class="boxes box13"></div>
+        <div class="boxes box14"></div>
+        <div class="boxes box15"></div>
+        <div class="boxes box16"></div>
+    </div>
+</body>
+</html>

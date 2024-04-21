@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS selectors</title>
+    <style>
+        
+        .box{
+            background-color: aqua;
+            color: blue;
+            border: solid 2px black;
+        }
+        .box:first-child{
+            background-color: aqua;
+            color: blue;
+            border: solid 2px black;
+        }
+        /* .box::first-line{
+            color: yellow;
+            background-color: black
+        } */
+        /* .boxes *{
+            color: gold;
+            background-color: silver
+        } */
+        /* p, a, .box, [data-color="primary"]{
+            margin-top: 51px;
+            padding-top: 21px; */
+        /* } */
+        /* .box:nth-child(odd){
+            background-color: tomato;
+            color: aquamarine;
+        } */
+        /* .box:nth-child(even){
+            background-color: blue ;
+            color: red;
+        } */
+        /* .box:nth-last-child(1){
+            background-color: red;
+            color: blue;
+        } */
+        /* .boxes::before{
+            content: "I am learing CSS by Harry" ;
+        }
+        .boxes::after{
+            content: "Sigma Course is also good :)";
+        } */
+        /* ::selection{
+            background-color: black;
+            color: goldenrod;
+        } */
+        .box::first-letter{
+            color: peru;
+            font-size: 22px;
+        }
+        input::placeholder{
+            background: black;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi non hic accusantium ullam quas ipsa voluptate, dolores reiciendis eveniet porro a rem minima architecto ab commodi itaque odio quo ipsum excepturi mollitia minus animi. Ipsa cupiditate molestiae nulla possimus minus corrupti, excepturi nobis sunt sequi nesciunt ipsum corporis architecto reprehenderit ex tempore saepe. Quo, aliquam autem! Sit delectus laborum necessitatibus perspiciatis. Natus eaque dicta dolore inventore voluptas.</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <input type="text" placeholder="type your text here!">
+    </div>
+</body>
+</html>
